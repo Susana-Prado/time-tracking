@@ -1,0 +1,33 @@
+.card-dashboard{
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  gap: 1.5rem;
+}
+
+.card-wrapper{
+  background-color: hsl(15, 100%, 70%);
+  border-radius: 5%;
+}
+
+.card-content {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 5%;
+  padding: 1.5rem;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+
+.card-wrapper img{
+    width: 50px;
+}

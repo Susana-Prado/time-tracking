@@ -1,10 +1,10 @@
 import './App.css';
-import Activity from './components/Activity/Activity';
+import Dashboard from './components/Dashboard/Dashboard';
 
 function App() {
   return (
     <div className="App">
-      <Activity />
+      <Dashboard />
     </div>
   );
 }

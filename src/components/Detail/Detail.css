@@ -1,5 +1,4 @@
 .card-dashboard{
-  width: 100%;
   justify-content: center;
   margin: 0 auto;
   display: flex;
@@ -26,6 +25,12 @@
 
 .card-content:hover {
   background-color: hsl(235, 45%, 61%);
+}
+
+.image{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 1.2rem;
 }
 
 .card-wrapper img{

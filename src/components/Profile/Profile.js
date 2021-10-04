@@ -3,6 +3,8 @@ import './Profile.css'
 import profile from '../../images/image-jeremy.png'
 
 export default function Profile() {
+  
+
     return (
         <div className="full-profile">
             <div className="profile-card">
@@ -11,9 +13,9 @@ export default function Profile() {
                 <h2>Jeremy Robson</h2>
             </div>
             <div className="preferences">
-                <h5>Daily</h5>
-                <h5>Weekly</h5>
-                <h5>Monthly</h5>
+                <h5 id="daily">Daily</h5>
+                <h5 id="weekly">Weekly</h5>
+                <h5 id="monthly">Monthly</h5>
             </div>
         </div>
     )

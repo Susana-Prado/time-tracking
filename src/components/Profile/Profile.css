@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  border-radius: 5%;
+  max-height: 800px;
 }
 
 .profile-card{
@@ -16,4 +18,13 @@
     width: 100px;
     border: 4px solid white;
     border-radius: 50%;
+}
+
+.preferences{
+    padding: 3rem;
+}
+
+.preferences h5:hover {
+    color: rgb(170, 162, 162);
+    cursor: pointer;
 }

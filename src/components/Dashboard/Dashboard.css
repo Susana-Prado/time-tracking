@@ -1,4 +1,11 @@
-.dashboard{
+.dashboard {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+  .dashboard {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+  }
 }

@@ -1,4 +1,4 @@
-.card-dashboard{
+.card-dashboard {
   justify-content: center;
   margin: 0 auto;
   display: flex;
@@ -9,10 +9,22 @@
   gap: 1.5rem;
 }
 
-.card-wrapper{
-  background-color: hsl(15, 100%, 70%);
-  border-radius: 5%;
+.Work,
+.Play,
+.Study,
+.Exercise,
+.Social,
+.SelfCare {
+  border-radius: 5rem;
 }
+
+.Work {
+  background: url('../../images/icon-work.svg'), hsl(15, 100%, 70%);
+  background-size: 22%, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 95% -15%, center;
+}
+
 
 .card-content {
   background-color: hsl(235, 46%, 20%);
@@ -24,15 +36,8 @@
 }
 
 .card-content:hover {
-  background-color: hsl(235, 45%, 61%);
+  cursor: pointer;
+  background: hsl(237, 35%, 35%);
 }
 
-.image{
-  display: flex;
-  justify-content: flex-end;
-  padding: 0 1.2rem;
-}
 
-.card-wrapper img{
-    width: 50px;
-}

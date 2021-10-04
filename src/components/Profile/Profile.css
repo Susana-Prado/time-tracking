@@ -8,23 +8,24 @@
   max-height: 800px;
 }
 
-.profile-card{
-    padding: 3rem;
-    background-color: hsl(235, 45%, 61%);
-    border-radius: 5%;
+.profile-card {
+  padding: 3rem;
+  background-color: hsl(235, 45%, 61%);
+  border-radius: 5%;
 }
 
 .profile-card img {
-    width: 100px;
-    border: 4px solid white;
-    border-radius: 50%;
+  width: 100px;
+  border: 4px solid white;
+  border-radius: 50%;
 }
 
-.preferences{
-    padding: 3rem;
+.preferences {
+  padding: 3rem;
+  color: hsl(235, 45%, 61%);
+  cursor: pointer;
 }
 
 .preferences h5:hover {
-    color: rgb(170, 162, 162);
-    cursor: pointer;
+  color: white;
 }

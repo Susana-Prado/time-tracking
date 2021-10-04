@@ -7,12 +7,12 @@ export default function Dashboard() {
     const [preference, setPreference] = useState('weekly');
 
     const changePreference = (e) => {
-        setPreference('e.target.id')
+        setPreference(e.target.id)
     }
     return (
         <div className="dashboard">
             <Profile changePreference={changePreference} preference={preference} />
-            <Detail />
+            <Detail preference={preference} />
         </div>
     )
 }

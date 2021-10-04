@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Detail.css";
 import image from "../../images/icon-play.svg";
 
-export default function Detail() {
+export default function Detail({preference}) {
   const [details, setDetails] = useState([]);
 
   useEffect(() => {
@@ -20,8 +20,8 @@ export default function Detail() {
           </div>
           <div className="card-content">
             <h4>{item.title}</h4>
-            <h1>{item.timeframes.weekly.current} hrs</h1>
-            <h5>Last week - {item.timeframes.weekly.previous} hrs</h5>
+            <h1>{item.timeframes[preference].current} hrs</h1>
+            <h5>Last week - {item.timeframes[preference].previous} hrs</h5> 
           </div>
         </div>
       ))}
